@@ -1,0 +1,77 @@
+@import "abstracts/valiables";
+@import "abstracts/function";
+@import "abstracts/mixins";
+
+@import "base/base";
+@import "base/animations";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/button";
+
+@import "layouts/grid";
+@import "layouts/header";
+
+@import "page/home";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+p {
+  font-size: 15px;
+  line-height: 1.7em;
+  font-weight: 400;
+}
+li {
+  list-style: none;
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: #666666;
+  line-height: 1.7em;
+  font-weight: 400;
+}
+input,
+button {
+  border: none;
+  outline: none;
+}
+// img {
+//   vertical-align: middle;
+//   border-style: none;
+// }
+img {
+  height: auto;
+  max-width: 100%;
+}
+.container {
+  max-width: 1170px;
+  width: 90%;
+  margin: 0 auto;
+}
+.auto-container {
+  max-width: 1170px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
